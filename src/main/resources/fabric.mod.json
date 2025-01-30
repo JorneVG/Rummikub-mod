@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "rummikubmod",
+	"version": "${version}",
+	"name": "Rummikub Mod",
+	"description": "Rummikub mod om alleen maar rummikub te spelen",
+	"authors": [
+		"Juicy_Jorne"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/rummikubmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mod.rummikub.RummikubMod"
+		],
+		"fabric-datagen": [
+			"mod.rummikub.RummikubModDataGenerator"
+		],
+		"client": [
+			"mod.rummikub.RummikubModClient"
+		]
+	},
+	"mixins": [
+		"rummikubmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21.4",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

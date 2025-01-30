@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rummikubmod:item/dried_cannabis"
+  }
+}

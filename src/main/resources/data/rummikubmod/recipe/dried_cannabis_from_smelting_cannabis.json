@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "cannabis",
+  "ingredient": [
+    "rummikubmod:cannabis"
+  ],
+  "result": {
+    "count": 1,
+    "id": "rummikubmod:dried_cannabis"
+  }
+}

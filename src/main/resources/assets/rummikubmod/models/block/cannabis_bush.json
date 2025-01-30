@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "rummikubmod:block/cannabis_bush_stage0",
+    "side": "rummikubmod:block/cannabis_bush_stage0"
+  }
+}
