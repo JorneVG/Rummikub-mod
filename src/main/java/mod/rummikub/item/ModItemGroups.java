@@ -18,6 +18,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.CANNABIS_SEEDS);
                         entries.add(ModItems.CANNABIS);
+                        entries.add(ModItems.JONKO);
                         entries.add(ModItems.DRIED_CANNABIS);
                         entries.add(ModItems.CANNABIS_COOKIE);
                         entries.add(ModBlocks.CANNABIS_BLOCK);
