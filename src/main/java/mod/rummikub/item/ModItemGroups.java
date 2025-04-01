@@ -21,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.JONKO);
                         entries.add(ModItems.DRIED_CANNABIS);
                         entries.add(ModItems.CANNABIS_COOKIE);
+                        entries.add(ModItems.KEBAB);
                         entries.add(ModBlocks.CANNABIS_BLOCK);
                     }).build());
 

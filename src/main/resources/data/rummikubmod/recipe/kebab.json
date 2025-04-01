@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": "minecraft:cooked_mutton",
+    "B": "minecraft:beetroot",
+    "G": "minecraft:bread",
+    "C": "minecraft:carrot",
+    "P": "minecraft:paper"
+  },
+  "pattern": [
+    " #B# ",
+    " GCG ",
+    " PGP "
+  ],
+  "result": {
+    "count": 1,
+    "id": "rummikubmod:kebab"
+  }
+}

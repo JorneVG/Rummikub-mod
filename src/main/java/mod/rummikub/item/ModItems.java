@@ -24,6 +24,7 @@ public class ModItems {
                     .registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RummikubMod.MOD_ID, "cannabis_seeds")))));
 
     public static final Item CANNABIS_COOKIE=registerItem("cannabis_cookie",new Item(new Item.Settings().food(ModFoodComponents.CANNABIS_COOKIE).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RummikubMod.MOD_ID,"cannabis_cookie"))).food(ModFoodComponents.CANNABIS_COOKIE, ModFoodComponents.CANNABIS_COOKIE_EFFECT)));
+    public static final Item KEBAB=registerItem("kebab",new Item(new Item.Settings().food(ModFoodComponents.KEBAB).registryKey(RegistryKey.of(RegistryKeys.ITEM, Identifier.of(RummikubMod.MOD_ID,"kebab"))).food(ModFoodComponents.KEBAB)));
 
 
     private static Item registerItem(String name, Item item) {
@@ -40,6 +41,7 @@ public class ModItems {
             entries.add(JONKO);
             entries.add(DRIED_CANNABIS);
             entries.add(CANNABIS_COOKIE);
+            entries.add(KEBAB);
         });
     }
 }
